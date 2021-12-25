@@ -3,7 +3,9 @@ import '../App.css';
 
 const GameBoard = () => {
     
-    return(
+  
+  
+  return(
         <div className = "gameBoard">    
            <div className = "gameContainer">
              <Randomizor  />
