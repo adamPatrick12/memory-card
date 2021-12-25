@@ -1,15 +1,14 @@
 import Randomizor from "./randomCardGen"
-import { useState } from "react"
+import '../App.css';
 
 const GameBoard = () => {
     
-    
-    
     return(
-        <div className = "gameBoard">
-            <div className = "gameContainer">
-               <Randomizor array = {[1,2,3,4,5]}/>
-            </div>
+        <div className = "gameBoard">    
+           <div className = "gameContainer">
+             <Randomizor  />
+           </div>
+           
         </div>
     )
 }
