@@ -35,3 +35,8 @@
   float: left;
 }
 
+.score{
+  text-align: center;
+  color: green;
+  font-size: 30px;
+}
