@@ -1,6 +1,22 @@
 import { React, useState } from "react";
 import "../App.css";
 
+import GoldenState from "../images/GoldenState.png"
+import Toronto from "../images/Toronto.png"
+import Milwaukee from "../images/Milwaukkee.png"
+import Celtics from "../images/Celtics.png"
+import Clippers from "../images/Clippers.png"
+import Jazz from "../images/Jazz.png"
+import Wizard from "../images/Wizards.png"
+import Pistons from "../images/Pistons.png"
+import Philly from "../images/Philly.png"
+import Memphis from "../images/Memphis.png"
+import Hawks from "../images/Hawks.png"
+import Mavs from "../images/Mavs.png"
+import Magic from "../images/Magic.png"
+import Wizards from "../images/Wizards.png"
+import Hornets from "../images/Hornets.png"
+
 let scoreNum = 0;
 let bestScore = 0
 let cardClicked1 = 0;
@@ -35,7 +51,7 @@ const Randomizor = () => {
 
         //Alot is going on here so let me explain 
   const checkIfClicked = (e) => {       
-    let textContent = e.target.textContent;   //store the textcontent in a variable to check what card the user clicked
+    let textContent = e.target.id;   //store the id in a variable to check what card the user clicked
   
     if (textContent === "1") {    //Checking what card the user clicked
       cardClicked1++;     //Adding +1 to a variable so the program knows the user alrealdy clicked that card
@@ -248,6 +264,7 @@ const Randomizor = () => {
         cardClicked8 = cardClicked9 = cardClicked10 = cardClicked11 = cardClicked12 = cardClicked13 = cardClicked14 = cardClicked15 = 0 
       }
     }
+    console.log(textContent)
   };
 
   const onClick = (e) => {
@@ -257,77 +274,77 @@ const Randomizor = () => {
 
   const element = (
     <div className="gamePiece" onClick={onClick}>
-      1
+     <img id = "1" className= "logo" src= {GoldenState} alt="" />
     </div>
   );
   const element2 = (
-    <div className="gamePiece" onClick={onClick}>
-      2
+    <div  className="gamePiece" onClick={onClick}>
+       <img id = "2" className= "logo" src= {Toronto} alt="" />
     </div>
   );
   const element3 = (
     <div className="gamePiece" onClick={onClick}>
-      3
+      <img className= "logo" id = "3" src= {Milwaukee} alt="" />
     </div>
   );
   const element4 = (
     <div className="gamePiece" onClick={onClick}>
-      4
+       <img className= "logo" id = "4" src= {Philly} alt="" />
     </div>
   );
   const element5 = (
     <div className="gamePiece" onClick={onClick}>
-      5
+       <img className= "logo" id = "5" src= {Pistons} alt="" />
     </div>
   );
   const element6 = (
     <div className="gamePiece" onClick={onClick}>
-      6
+       <img className= "logo" id = "6" src= {Wizard} alt="" />
     </div>
   );
   const element7 = (
     <div className="gamePiece" onClick={onClick}>
-      7
+       <img className= "logo" id = "7" src= {Memphis} alt="" />
     </div>
   );
   const element8 = (
     <div className="gamePiece" onClick={onClick}>
-      8
+       <img className= "logo" id = "8" src= {Celtics} alt="" />
     </div>
   );
   const element9 = (
     <div className="gamePiece" onClick={onClick}>
-      9
+      <img className= "logo" id = "9" src= {Jazz} alt="" />
     </div>
   );
   const element10 = (
     <div className="gamePiece" onClick={onClick}>
-      10
+       <img className= "logo" id = "10" src= {Clippers} alt="" />
     </div>
   );
   const element11 = (
     <div className="gamePiece" onClick={onClick}>
-      11
+        <img className= "logo" id = "11" src= {Hornets} alt="" />
     </div>
   );
   const element12 = (
     <div className="gamePiece" onClick={onClick}>
-      12
+       <img className= "logo" id = "12" src= {Wizards} alt="" />
     </div>
   );
   const element13 = (
     <div className="gamePiece" onClick={onClick}>
-      13
+        <img className= "logo" id = "13" src= {Magic} alt="" />
     </div>
   );
   const element14 = (
     <div className="gamePiece" onClick={onClick}>
-      14
+      <img className= "logo" id = "14" src= {Mavs} alt="" />
     </div>
   );
   const element15 = (
     <div className="gamePiece" onClick={onClick}>
-      15
+        <img className= "logo" id = "8" src= {Hawks} alt="" />
     </div>
   );
 
