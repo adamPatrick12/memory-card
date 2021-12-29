@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/memory-card/static/css/main.4a26cf05.css",
+    "main.js": "/memory-card/static/js/main.816286a0.js",
+    "static/js/787.852ea1bb.chunk.js": "/memory-card/static/js/787.852ea1bb.chunk.js",
+    "static/media/Wizards.png": "/memory-card/static/media/Wizards.c918c17145d4195c80cf.png",
+    "static/media/Hornets.png": "/memory-card/static/media/Hornets.9800f72fef49b13ff7f0.png",
+    "static/media/Hawks.png": "/memory-card/static/media/Hawks.bcd6bc4bd6819ad0882a.png",
+    "static/media/Celtics.png": "/memory-card/static/media/Celtics.6fae52f7db4a76837268.png",
+    "static/media/Mavs.png": "/memory-card/static/media/Mavs.420fd67004b112ef1454.png",
+    "static/media/GoldenState.png": "/memory-card/static/media/GoldenState.c24ddb22835200cd113b.png",
+    "static/media/Pistons.png": "/memory-card/static/media/Pistons.628d1d7bea0cca233e2f.png",
+    "static/media/Jazz.png": "/memory-card/static/media/Jazz.ed5bf59d15a22edcf84c.png",
+    "static/media/Clippers.png": "/memory-card/static/media/Clippers.feac776f3c9d2722a7a9.png",
+    "static/media/Magic.png": "/memory-card/static/media/Magic.e5732d78315978250596.png",
+    "static/media/nbaLogo.png": "/memory-card/static/media/nbaLogo.889677999f940742a46f.png",
+    "static/media/Philly.png": "/memory-card/static/media/Philly.e1814a409d8d9ccff8c4.png",
+    "static/media/Memphis.png": "/memory-card/static/media/Memphis.5067e47804ca3724fd8d.png",
+    "static/media/Milwaukkee.png": "/memory-card/static/media/Milwaukkee.cf9fb55882af21b7d420.png",
+    "static/media/Bulls.png": "/memory-card/static/media/Bulls.36ce1e1db82a71b883d0.png",
+    "static/media/Toronto.png": "/memory-card/static/media/Toronto.a71754a54bc59056bed1.png",
+    "index.html": "/memory-card/index.html",
+    "main.4a26cf05.css.map": "/memory-card/static/css/main.4a26cf05.css.map",
+    "main.816286a0.js.map": "/memory-card/static/js/main.816286a0.js.map",
+    "787.852ea1bb.chunk.js.map": "/memory-card/static/js/787.852ea1bb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4a26cf05.css",
+    "static/js/main.816286a0.js"
+  ]
+}
