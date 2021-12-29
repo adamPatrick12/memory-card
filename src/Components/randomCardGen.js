@@ -14,8 +14,8 @@ import Memphis from "../images/Memphis.png"
 import Hawks from "../images/Hawks.png"
 import Mavs from "../images/Mavs.png"
 import Magic from "../images/Magic.png"
-import Wizards from "../images/Wizards.png"
 import Hornets from "../images/Hornets.png"
+import Bulls from "../images/Bulls.png"
 
 let scoreNum = 0;
 let bestScore = 0
@@ -329,7 +329,7 @@ const Randomizor = () => {
   );
   const element12 = (
     <div className="gamePiece" onClick={onClick}>
-       <img className= "logo" id = "12" src= {Wizards} alt="" />
+       <img className= "logo" id = "12" src= {Bulls} alt="" />
     </div>
   );
   const element13 = (
@@ -376,8 +376,10 @@ const Randomizor = () => {
 
   return (
   <div>
-  <div className = "score" > Score: {score}</div>
-  <div className = "score">Highscore: {highScore}</div>
+  <div className="scoreBoard">
+    <div className = "score" > Score: {score}</div>
+    <div className = "score">Highscore: {highScore}</div>
+  </div>
   <div>{cards}</div>
   </div>
   );
